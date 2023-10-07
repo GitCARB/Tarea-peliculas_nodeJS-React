@@ -10,7 +10,7 @@ export const App = ({ axiosInstance }) => {
     return (
         <AxiosContext.Provider value={axiosInstance}>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/director" element={<Director />} />
                 <Route path="/genero" element={<Genero />} />
             </Routes>
