@@ -10,16 +10,16 @@ const BaseLayout = ({ children }) => {
                 
                     {/* Logo Image */}
                     <Link to ="/">
-                    <img src="./logo.png" alt="Logo" className="navbar-logo" />
+                    <img src="./logo.png" alt="Logo" className="navbar-logo" width={300} height={100} />
                     </Link>
-                    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                    <nav className="navbar navbar-expand-lg bg-danger">
   <div className="container-fluid">
   <a class="navbar-brand" href="#">APPeliculas</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul className="navbar-nav">
+      <ul className="navbar-nav mx-auto" >
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/Home">Inicio</Link>
         </li>
